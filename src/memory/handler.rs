@@ -3,7 +3,6 @@ use core::panic;
 use process_memory::{DataMember, Memory, Pid as WPid, TryIntoProcessHandle};
 use read_process_memory::{CopyAddress, ProcessHandle as RProcessHandle};
 use std::convert::TryInto;
-use std::fmt;
 use std::fs::File;
 use std::io::{self, BufRead, BufReader};
 use std::usize;
