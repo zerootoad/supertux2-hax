@@ -1,0 +1,9 @@
+[package]
+name = "supertux2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+sysinfo="*"
+read-process-memory="*"
+process-memory="*"
